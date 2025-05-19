@@ -18,7 +18,6 @@ def sorted_dicts(dict):
     for key, value in dict.items():
          if key.isalpha():
             temp = {}
-            # make a dictionary of the character and its count and add it to the list directly
             temp["char"] = key
             temp["num"] = value
             res.append(temp)

@@ -16,8 +16,6 @@ def main(path):
     text = get_book_text(path)
     num_words = word_count(text)
     char_count_dict = char_count(text)
-    # print(f"{num_words} words found in the document")
-    # print(char_count_dict)
     sorted_list = sorted_dicts(char_count_dict)
     formatted_string = print_stats_formatted_string(sorted_list)
     print(f"""
